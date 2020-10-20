@@ -1,0 +1,19 @@
+#latihan konversi satuan temperatur
+#program konversi reamur ke satuan lain
+
+print("\n PROGRAM KONVERSI SATUAN TEMPERATUR \n")
+
+reamur = float(input("Masukkan suhu dalam satuan reamur : "))
+print("suhu adalah", reamur, "Reamur")
+
+#celcius
+celcius = (5/4) * reamur
+print("Suhu dalam celcius adalah", celcius, "Celcius")
+
+#kelvin
+kelvin = (5/4*(reamur + 273))
+print("Suhu dalam kelvin adalah", kelvin, "Kelvin")
+
+#fahrenheit
+fahrenheit = (9/4 * (reamur + 32))
+print("Suhu dalam fahrenheit adalah", fahrenheit, "Fahrenheit")
